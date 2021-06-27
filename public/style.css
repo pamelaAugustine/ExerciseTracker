@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  font-family: Candara;
+}
+
+body {
+  font-family:sans-serif;
+  margin: 25px;
+  color: #222;
+  background-image: url(./images/img104.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+#exHead{
+  text-align: center;
+}
+
+p {
+  max-width: 900px;
+}
+
+#addExerciseForm{
+float: right;
+}
+
+/* #directions{
+  float: right;
+} */
+
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: rgba(178, 194, 224, 0.397);
+
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: rgb(200, 221, 241);
+  border: 1px solid grey;
+  box-shadow: 2px 2px rgb(76, 110, 141);
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(87, 121, 231);
+  color: white;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: rgb(84, 144, 235);
+  padding: 2px;
+}
